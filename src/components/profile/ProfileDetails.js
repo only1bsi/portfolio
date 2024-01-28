@@ -2,37 +2,15 @@ import React from 'react'
 
 function ProfileDetails() {
   return (
-    <div className="w-[230px] h-[1050px] relative solid-zinc-900 bg-dark-grey" >
-      
-      <h2 className='text-white'>Residence:</h2>
-      <h2 className='text-white'>Canada</h2>
-      <h2 className='text-white'>City:</h2>
-      <h2 className='text-white'>Toronto</h2>
-      <h2 className='text-white'>Age:</h2>
-      <h2 className='text-white'>26</h2>
-      <hr/>
-      <h2 className='text-white'>French</h2>
-      <h2 className='text-white'>English</h2>
-      <h2 className='text-white'>Spanish</h2>
-      <hr/>
-      <h2 className='text-white'>HTML</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>CSS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>JS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>REACT.JS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>NODE.JS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>EXPRESS.JS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>MONGO-DB</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <h2 className='text-white'>WORDPRESS</h2>
-      <h2 className='text-white'>Progress Bar</h2>
-      <hr/>
-    </div> 
+    <div className="w-[290.72px] h-[231.09px] px-[74px] py-[30px] bg-gradient-to-br from-zinc-800 to-zinc-800 shadow border border-black justify-start items-center inline-flex">
+  <img className="w-[90px] h-[90px] relative rounded-[45px]" src="https://via.placeholder.com/90x90" />
+  <h2>profileDetails</h2>
+  <div className="w-[88.32px] h-5 text-center text-gray-50 text-sm font-semibold font-['Poppins'] leading-none tracking-tight">Artur Carter</div>
+  <div className="w-[142.72px] h-[41.09px] text-center text-neutral-400 text-[13px] font-normal font-['Poppins'] leading-snug tracking-tight">Front-end Deweloper<br/>Ui/UX Designer</div>
+  <div className="w-[23px] h-[23px] bg-gray-50 rounded-xl"></div>
+  <div className="w-[15px] h-[15px] bg-yellow-400 rounded-lg"></div>
+</div>
+     
 
   )
 }

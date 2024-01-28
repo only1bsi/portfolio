@@ -7,8 +7,8 @@ import ProfileFooter from '../ProfileFooter'
 function ProfileBarView() {
   return (
     <div className=' profile-bar'>
-     <ProfileImg />
      <ProfileDetails />
+     <ProfileImg />
      <ProfileFooter />
     </div>
   )
